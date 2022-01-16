@@ -18,6 +18,7 @@
 		6CEA7FD42793F5A100F65440 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD32793F5A100F65440 /* RecipeDetailView.swift */; };
 		6CEA7FD62794048700F65440 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD52794048700F65440 /* README.md */; };
 		6CEA7FD827940BAC00F65440 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD727940BAC00F65440 /* RecipeTabView.swift */; };
+		6CEA7FDA2794B17200F65440 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6CEA7FD32793F5A100F65440 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		6CEA7FD52794048700F65440 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6CEA7FD727940BAC00F65440 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6CEA7FD727940BAC00F65440 /* RecipeTabView.swift */,
+				6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */,
 				6CEA7FBA2793D17900F65440 /* RecipeListView.swift */,
 				6CEA7FD32793F5A100F65440 /* RecipeDetailView.swift */,
 			);
@@ -206,6 +209,7 @@
 				6CEA7FBB2793D17900F65440 /* RecipeListView.swift in Sources */,
 				6CEA7FB92793D17900F65440 /* Recipe_List_App.swift in Sources */,
 				6CEA7FD22793D81100F65440 /* DataService.swift in Sources */,
+				6CEA7FDA2794B17200F65440 /* RecipeFeaturedView.swift in Sources */,
 				6CEA7FD827940BAC00F65440 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
