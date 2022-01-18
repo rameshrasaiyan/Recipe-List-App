@@ -39,7 +39,7 @@ class RecipeModel: ObservableObject {
             denominator /= devisor
             
             // Get the whole portion if numerator ? denominator
-            if numerator > denominator {
+            if numerator >= denominator {
                 
                 // Calculate whole potions
                 wholePortions = numerator / denominator
@@ -61,7 +61,23 @@ class RecipeModel: ObservableObject {
             
         }
         
-        if let unit = ingredient.unit {
+        if var unit = ingredient.unit {
+            
+            // If we need to pluralize
+            if wholePortions > 1 {
+                
+                // Calculate appropriate suffix
+                if unit.suffix(2) == "ch" {
+                    unit = "es"
+                }
+                else if unit.suffix(1) == "f" {
+                    unit = String(unit.dropLast())
+                    unit += "ves"
+                }
+                else {
+                    unit += "s"
+                }
+            }
             
             portion += ingredient.num == nil && ingredient.denom == nil ? "" : " "
             return portion + unit
