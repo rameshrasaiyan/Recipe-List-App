@@ -20,6 +20,7 @@
 		6CEA7FD827940BAC00F65440 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD727940BAC00F65440 /* RecipeTabView.swift */; };
 		6CEA7FDA2794B17200F65440 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */; };
 		6CEFD73827955A4D00EC1802 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFD73727955A4D00EC1802 /* Rational.swift */; };
+		6CEFD73A2796839F00EC1802 /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEFD7392796839F00EC1802 /* RecipeHighlights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6CEA7FD727940BAC00F65440 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		6CEFD73727955A4D00EC1802 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		6CEFD7392796839F00EC1802 /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				6CEA7FD92794B17200F65440 /* RecipeFeaturedView.swift */,
 				6CEA7FBA2793D17900F65440 /* RecipeListView.swift */,
 				6CEA7FD32793F5A100F65440 /* RecipeDetailView.swift */,
+				6CEFD7392796839F00EC1802 /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				6CEA7FCE2793D3BF00F65440 /* Recipe.swift in Sources */,
 				6CEA7FD42793F5A100F65440 /* RecipeDetailView.swift in Sources */,
+				6CEFD73A2796839F00EC1802 /* RecipeHighlights.swift in Sources */,
 				6CEFD73827955A4D00EC1802 /* Rational.swift in Sources */,
 				6CEA7FD02793D65B00F65440 /* RecipeModel.swift in Sources */,
 				6CEA7FBB2793D17900F65440 /* RecipeListView.swift in Sources */,
